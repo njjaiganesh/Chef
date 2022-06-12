@@ -1,0 +1,55 @@
+I, [2022-06-11T22:29:11.592699 #16296]  INFO -- default-ubuntu-1804: -----> Converging <default-ubuntu-1804>...
+I, [2022-06-11T22:29:11.698530 #16296]  INFO -- default-ubuntu-1804: Preparing files for transfer
+I, [2022-06-11T22:29:11.701093 #16296]  INFO -- default-ubuntu-1804: Installing cookbooks for Policyfile C:/Users/jaiganesh/Work/Training/chef-starter/chef-repo/cookbooks/node-info/Policyfile.rb using `C:\softwares\chef\chef-workstation\bin\chef-cli.BAT install`
+I, [2022-06-11T22:29:13.660247 #16296]  INFO -- default-ubuntu-1804: Installing cookbooks from lock
+I, [2022-06-11T22:29:13.703314 #16296]  INFO -- default-ubuntu-1804: Installing node-info 0.1.0
+I, [2022-06-11T22:29:13.715102 #16296]  INFO -- default-ubuntu-1804: Updating policy lock using `C:\softwares\chef\chef-workstation\bin\chef-cli.BAT update`
+I, [2022-06-11T22:29:15.677062 #16296]  INFO -- default-ubuntu-1804: Building policy node-info
+I, [2022-06-11T22:29:15.677281 #16296]  INFO -- default-ubuntu-1804: Expanded run list: recipe[node-info::default]
+I, [2022-06-11T22:29:15.677327 #16296]  INFO -- default-ubuntu-1804: Caching Cookbooks...
+I, [2022-06-11T22:29:15.677373 #16296]  INFO -- default-ubuntu-1804: Installing node-info >= 0.0.0 from path
+I, [2022-06-11T22:29:18.471683 #16296]  INFO -- default-ubuntu-1804: 
+I, [2022-06-11T22:29:18.471797 #16296]  INFO -- default-ubuntu-1804: Lockfile written to C:/Users/jaiganesh/Work/Training/chef-starter/chef-repo/cookbooks/node-info/Policyfile.lock.json
+I, [2022-06-11T22:29:18.483374 #16296]  INFO -- default-ubuntu-1804: Policy revision id: 68645aed2e3cb99960c12c84b1c522fbcbe4fa271abae9523baf1712cd377d86
+I, [2022-06-11T22:29:18.505094 #16296]  INFO -- default-ubuntu-1804: Preparing dna.json
+I, [2022-06-11T22:29:18.508289 #16296]  INFO -- default-ubuntu-1804: Exporting cookbook dependencies from Policyfile C:/Users/JAIGAN~1/AppData/Local/Temp/default-ubuntu-1804-sandbox-20220611-16296-oy7xyk using `C:\softwares\chef\chef-workstation\bin\chef-cli.BAT export`...
+I, [2022-06-11T22:29:20.349165 #16296]  INFO -- default-ubuntu-1804: Exported policy 'node-info' to C:/Users/JAIGAN~1/AppData/Local/Temp/default-ubuntu-1804-sandbox-20220611-16296-oy7xyk
+I, [2022-06-11T22:29:20.349309 #16296]  INFO -- default-ubuntu-1804: 
+I, [2022-06-11T22:29:20.349347 #16296]  INFO -- default-ubuntu-1804: To converge this system with the exported policy, run:
+I, [2022-06-11T22:29:20.349374 #16296]  INFO -- default-ubuntu-1804:   cd C:/Users/JAIGAN~1/AppData/Local/Temp/default-ubuntu-1804-sandbox-20220611-16296-oy7xyk
+I, [2022-06-11T22:29:20.349436 #16296]  INFO -- default-ubuntu-1804:   chef-client -z
+I, [2022-06-11T22:29:20.352771 #16296]  INFO -- default-ubuntu-1804: Removing non-cookbook files before transfer
+I, [2022-06-11T22:29:20.353749 #16296]  INFO -- default-ubuntu-1804: Preparing validation.pem
+I, [2022-06-11T22:29:20.354791 #16296]  INFO -- default-ubuntu-1804: Preparing client.rb
+I, [2022-06-11T22:29:21.035526 #16296]  INFO -- default-ubuntu-1804: -----> Chef installation detected (install only if missing)
+I, [2022-06-11T22:29:21.058907 #16296]  INFO -- default-ubuntu-1804: Transferring files to <default-ubuntu-1804>
+I, [2022-06-11T22:29:22.483356 #16296]  INFO -- default-ubuntu-1804: Chef Infra Client, version 17.10.3
+I, [2022-06-11T22:29:22.483520 #16296]  INFO -- default-ubuntu-1804: Patents: https://www.chef.io/patents
+I, [2022-06-11T22:29:22.483611 #16296]  INFO -- default-ubuntu-1804: Infra Phase starting
+I, [2022-06-11T22:29:23.691473 #16296]  INFO -- default-ubuntu-1804: Using Policyfile 'node-info' at revision 'fa0e41be9da0f4275f32de524fa761c51aaccd6e84162aedc1fbf06eba4e0e7c'
+I, [2022-06-11T22:29:23.692333 #16296]  INFO -- default-ubuntu-1804: Resolving cookbooks for run list: ["node-info::default@0.1.0 (3b3e40e)"]
+I, [2022-06-11T22:29:23.704162 #16296]  INFO -- default-ubuntu-1804: Synchronizing cookbooks:
+I, [2022-06-11T22:29:23.715980 #16296]  INFO -- default-ubuntu-1804:   - node-info (0.1.0)
+I, [2022-06-11T22:29:23.716432 #16296]  INFO -- default-ubuntu-1804: Installing cookbook gem dependencies:
+I, [2022-06-11T22:29:23.716819 #16296]  INFO -- default-ubuntu-1804: Compiling cookbooks...
+I, [2022-06-11T22:29:23.948466 #16296]  INFO -- default-ubuntu-1804: Loading Chef InSpec profile files:
+I, [2022-06-11T22:29:23.948845 #16296]  INFO -- default-ubuntu-1804: Loading Chef InSpec input files:
+I, [2022-06-11T22:29:23.949917 #16296]  INFO -- default-ubuntu-1804: Loading Chef InSpec waiver files:
+I, [2022-06-11T22:29:23.951064 #16296]  INFO -- default-ubuntu-1804: Converging 3 resources
+I, [2022-06-11T22:29:23.951497 #16296]  INFO -- default-ubuntu-1804: Recipe: node-info::node-info
+I, [2022-06-11T22:29:23.963051 #16296]  INFO -- default-ubuntu-1804:   * file[/node-info.txt] action create (up to date)
+I, [2022-06-11T22:29:23.963241 #16296]  INFO -- default-ubuntu-1804: Recipe: node-info::repositories
+I, [2022-06-11T22:29:23.964144 #16296]  INFO -- default-ubuntu-1804:   * apt_repository[powershell] action add
+I, [2022-06-11T22:29:23.964942 #16296]  INFO -- default-ubuntu-1804:     * execute[apt-cache gencaches] action nothing (skipped due to action :nothing)
+I, [2022-06-11T22:29:23.965527 #16296]  INFO -- default-ubuntu-1804:     * apt_update[powershell] action nothing (skipped due to action :nothing)
+I, [2022-06-11T22:29:24.301398 #16296]  INFO -- default-ubuntu-1804:     * remote_file[/tmp/kitchen/cache/https___packages_microsoft_com_keys_microsoft_asc] action create (up to date)
+I, [2022-06-11T22:29:24.463455 #16296]  INFO -- default-ubuntu-1804:     * execute[apt-key add /tmp/kitchen/cache/https___packages_microsoft_com_keys_microsoft_asc] action run (skipped due to not_if)
+I, [2022-06-11T22:29:24.506852 #16296]  INFO -- default-ubuntu-1804:     * file[/etc/apt/sources.list.d/powershell.list] action create (up to date)
+I, [2022-06-11T22:29:24.507547 #16296]  INFO -- default-ubuntu-1804:      (up to date)
+I, [2022-06-11T22:29:24.593602 #16296]  INFO -- default-ubuntu-1804:   * apt_package[apt-transport-https] action upgrade (up to date)
+I, [2022-06-11T22:29:24.647184 #16296]  INFO -- default-ubuntu-1804: 
+I, [2022-06-11T22:29:24.647376 #16296]  INFO -- default-ubuntu-1804: Running handlers:
+I, [2022-06-11T22:29:24.647482 #16296]  INFO -- default-ubuntu-1804: Running handlers complete
+I, [2022-06-11T22:29:24.648694 #16296]  INFO -- default-ubuntu-1804: Infra Phase complete, 0/8 resources updated in 02 seconds
+I, [2022-06-11T22:29:24.650227 #16296]  INFO -- default-ubuntu-1804: Downloading files from <default-ubuntu-1804>
+I, [2022-06-11T22:29:24.656471 #16296]  INFO -- default-ubuntu-1804: Finished converging <default-ubuntu-1804> (0m13.06s).

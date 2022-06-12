@@ -1,0 +1,42 @@
+{
+  "revision_id": "2aa40a6c423044361150f52085db3fb807c167d349cb1a137a0fef784848262d",
+  "name": "node-packages",
+  "run_list": [
+    "recipe[node-packages::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "node-packages": {
+      "version": "0.1.0",
+      "identifier": "869cfb2abe9f0cf654e222c185625912c34845c5",
+      "dotted_decimal_identifier": "37890249447087884.69336174493271394.97937120576965",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "node-packages",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "node-packages (0.1.0)": [
+
+      ]
+    }
+  }
+}
